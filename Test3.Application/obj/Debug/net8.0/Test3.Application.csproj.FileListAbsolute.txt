@@ -1,0 +1,15 @@
+D:\asp proj\Test3.Api\Test3.Application\bin\Debug\net8.0\Test3.Application.deps.json
+D:\asp proj\Test3.Api\Test3.Application\bin\Debug\net8.0\Test3.Application.dll
+D:\asp proj\Test3.Api\Test3.Application\bin\Debug\net8.0\Test3.Application.pdb
+D:\asp proj\Test3.Api\Test3.Application\bin\Debug\net8.0\Test3.Domin.dll
+D:\asp proj\Test3.Api\Test3.Application\bin\Debug\net8.0\Test3.Domin.pdb
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.csproj.AssemblyReference.cache
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.AssemblyInfoInputs.cache
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.AssemblyInfo.cs
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.csproj.CoreCompileInputs.cache
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Ap.AF978ABE.Up2Date
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.dll
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\refint\Test3.Application.dll
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.pdb
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\ref\Test3.Application.dll

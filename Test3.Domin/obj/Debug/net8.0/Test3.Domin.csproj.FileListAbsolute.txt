@@ -1,0 +1,11 @@
+D:\asp proj\Test3.Api\Test3.Domin\bin\Debug\net8.0\Test3.Domin.deps.json
+D:\asp proj\Test3.Api\Test3.Domin\bin\Debug\net8.0\Test3.Domin.dll
+D:\asp proj\Test3.Api\Test3.Domin\bin\Debug\net8.0\Test3.Domin.pdb
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.AssemblyInfoInputs.cache
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.AssemblyInfo.cs
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.csproj.CoreCompileInputs.cache
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.dll
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\refint\Test3.Domin.dll
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.pdb
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\ref\Test3.Domin.dll

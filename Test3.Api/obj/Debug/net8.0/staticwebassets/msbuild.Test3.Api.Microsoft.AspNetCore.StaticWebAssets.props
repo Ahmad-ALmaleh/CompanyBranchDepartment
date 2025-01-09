@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\91200c07-8785-4957-952a-31335a193424_SOLID Principles in C#.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Test3.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Test3.Api</BasePath>
+      <RelativePath>uploads/cvs/91200c07-8785-4957-952a-31335a193424_SOLID Principles in C#.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>04ar7j1qyt</Fingerprint>
+      <Integrity>8I4o9LOEpsZCs6uT+phDpngA/AHs/8a23VMxehlRKDE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\91200c07-8785-4957-952a-31335a193424_SOLID Principles in C#.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\ab2d6983-aed0-4916-9617-9d692a179b1b_بيان دوام أحمد المالح.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Test3.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Test3.Api</BasePath>
+      <RelativePath>uploads/cvs/ab2d6983-aed0-4916-9617-9d692a179b1b_بيان دوام أحمد المالح.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dxrdxntdzq</Fingerprint>
+      <Integrity>oVtVMmrhLt0/2eYokaOAzB3amBWm9bE89j+DGJsZYxw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\ab2d6983-aed0-4916-9617-9d692a179b1b_بيان دوام أحمد المالح.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

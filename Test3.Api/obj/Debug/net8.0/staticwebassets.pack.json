@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\asp proj\\Test3.Api\\Test3.Api\\wwwroot\\uploads\\cvs\\91200c07-8785-4957-952a-31335a193424_SOLID Principles in C#.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\91200c07-8785-4957-952a-31335a193424_SOLID Principles in C#.pdf"
+    },
+    {
+      "Id": "D:\\asp proj\\Test3.Api\\Test3.Api\\wwwroot\\uploads\\cvs\\ab2d6983-aed0-4916-9617-9d692a179b1b_بيان دوام أحمد المالح.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\ab2d6983-aed0-4916-9617-9d692a179b1b_بيان دوام أحمد المالح.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Test3.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Test3.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Test3.Api.props",
+      "PackagePath": "build\\Test3.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Test3.Api.props",
+      "PackagePath": "buildMultiTargeting\\Test3.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Test3.Api.props",
+      "PackagePath": "buildTransitive\\Test3.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
