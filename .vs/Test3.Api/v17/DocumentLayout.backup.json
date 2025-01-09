@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\asp proj\\Test3.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{18BEA9FF-93DC-48B7-B6A2-AF18621A357D}|Test3.Application\\Test3.Application.csproj|d:\\asp proj\\test3.api\\test3.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18BEA9FF-93DC-48B7-B6A2-AF18621A357D}|Test3.Application\\Test3.Application.csproj|solutionrelative:test3.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB650FD-6375-4E8D-9F07-FD23E6598DB6}|Solution Items{5EB650FD-6375-4E8D-9F07-FD23E6598DB6}|D:\\asp proj\\Test3.Api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5EB650FD-6375-4E8D-9F07-FD23E6598DB6}|Solution Items{5EB650FD-6375-4E8D-9F07-FD23E6598DB6}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D197E0E-45B2-4E1B-A18D-0C3401B6DBE4}|Test3.Api\\Test3.Api.csproj|d:\\asp proj\\test3.api\\test3.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D197E0E-45B2-4E1B-A18D-0C3401B6DBE4}|Test3.Api\\Test3.Api.csproj|solutionrelative:test3.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,10 +54,6 @@
       "RelativeMoniker": "D:0:0:{D4012F5B-E4E9-4956-B6DC-177FC47CC2C8}|Test3.Infrastructure\\Test3.Infrastructure.csproj|solutionrelative:test3.infrastructure\\infrastructureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BEA9FF-93DC-48B7-B6A2-AF18621A357D}|Test3.Application\\Test3.Application.csproj|d:\\asp proj\\test3.api\\test3.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18BEA9FF-93DC-48B7-B6A2-AF18621A357D}|Test3.Application\\Test3.Application.csproj|solutionrelative:test3.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4012F5B-E4E9-4956-B6DC-177FC47CC2C8}|Test3.Infrastructure\\Test3.Infrastructure.csproj|d:\\asp proj\\test3.api\\test3.infrastructure\\persistence\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4012F5B-E4E9-4956-B6DC-177FC47CC2C8}|Test3.Infrastructure\\Test3.Infrastructure.csproj|solutionrelative:test3.infrastructure\\persistence\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,11 +77,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\asp proj\\Test3.Api\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\asp proj\\Test3.Api\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-09T07:12:51.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\Mappings\\MappingProfile.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "RegistrationResponse.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\DTOs\\Identity\\RegistrationResponse.cs",
               "RelativeDocumentMoniker": "Test3.Application\\DTOs\\Identity\\RegistrationResponse.cs",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Test3.Api\\Controllers\\AuthController.cs",
@@ -109,12 +126,11 @@
               "RelativeToolTip": "Test3.Api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T08:00:31.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T08:00:31.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Api\\Program.cs",
               "RelativeDocumentMoniker": "Test3.Api\\Program.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\Identity\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\Identity\\Services\\AuthService.cs",
@@ -135,12 +151,24 @@
               "RelativeToolTip": "Test3.Infrastructure\\Identity\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T07:30:00.055Z",
+              "WhenOpened": "2025-01-06T07:30:00.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Test3.Application\\Contracts\\Identity\\IAuthService.cs",
+              "ToolTip": "D:\\asp proj\\Test3.Api\\Test3.Application\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeToolTip": "Test3.Application\\Contracts\\Identity\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:43:11.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Api\\Extensions\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "Test3.Api\\Extensions\\SwaggerConfig.cs",
@@ -148,12 +176,11 @@
               "RelativeToolTip": "Test3.Api\\Extensions\\SwaggerConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T06:42:39.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T06:42:39.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Domin\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "Test3.Domin\\Entities\\Employee.cs",
@@ -165,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\DTOs\\Identity\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Test3.Application\\DTOs\\Identity\\RegisterRequest.cs",
@@ -177,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "dbo.Employees.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Test3/True/SqlTable/dbo.Employees.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Test3/True/SqlTable/dbo.Employees.sql",
@@ -186,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CreateEmployee.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\DTOs\\Employee\\CreateEmployee.cs",
               "RelativeDocumentMoniker": "Test3.Application\\DTOs\\Employee\\CreateEmployee.cs",
@@ -198,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "InfrastructureServicesRegistration.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\InfrastructureServicesRegistration.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\InfrastructureServicesRegistration.cs",
@@ -210,19 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\Contracts\\Identity\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Test3.Application\\Contracts\\Identity\\IAuthService.cs",
-              "ToolTip": "D:\\asp proj\\Test3.Api\\Test3.Application\\Contracts\\Identity\\IAuthService.cs",
-              "RelativeToolTip": "Test3.Application\\Contracts\\Identity\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T07:43:11.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250106075851_updateEmployee.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\Migrations\\20250106075851_updateEmployee.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\Migrations\\20250106075851_updateEmployee.cs",
@@ -234,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\Persistence\\Services\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\Persistence\\Services\\EmployeeRepository.cs",
@@ -246,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Application\\Contracts\\Persistence\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Test3.Application\\Contracts\\Persistence\\IEmployeeRepository.cs",
@@ -258,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\asp proj\\Test3.Api\\Test3.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Test3.Infrastructure\\Persistence\\AppDbContext.cs",
