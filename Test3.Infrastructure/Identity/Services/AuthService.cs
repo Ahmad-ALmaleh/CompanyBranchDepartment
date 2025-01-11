@@ -33,6 +33,7 @@ public class AuthService : IAuthService
     private readonly AppDbContext _dbContext;
     private readonly IEmployeeRepository _employeeRepository;
 
+
     public AuthService(UserManager<AppUser> userManager,
         RoleManager<IdentityRole> roleManager,
         IOptions<JwtSettings> jwtSettings,
@@ -41,6 +42,7 @@ public class AuthService : IAuthService
         IMapper mapper,
         AppDbContext dbContext,
         IEmployeeRepository employeeRepository
+
         )
     {
         _userManager = userManager;
@@ -53,33 +55,19 @@ public class AuthService : IAuthService
         _employeeRepository = employeeRepository;
     }
 
-    public async Task<AuthResponse> Login(AuthRequest request)
+    public async Task<string> Login(AuthRequest loginRequest)
     {
-        var user = await _userManager.FindByEmailAsync(request.Email);
+        var user = await _userManager.FindByEmailAsync(loginRequest.Email);
 
-        if (user == null)
+        if (user == null || !await _userManager.CheckPasswordAsync(user, loginRequest.Password))
         {
-            throw new Exception($"User with {request.Email} not found.");
+            throw new Exception("Invalid credentials.");
         }
 
-        var result = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, lockoutOnFailure: false);
+        // توليد التوكن
+        var jwtToken = await GenerateToken(user);
 
-        if (!result.Succeeded)
-        {
-            throw new Exception($"Credentials for '{request.Email} aren't valid'.");
-        }
-
-         JwtSecurityToken jwtSecurityToken = await GenerateToken(user);
-
-        AuthResponse response = new AuthResponse
-        {
-            Id = user.Id,
-             Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),
-            Email = user.Email,
-            UserName = user.UserName
-        };
-
-        return response;
+        return new JwtSecurityTokenHandler().WriteToken(jwtToken);
     }
 
     
@@ -145,36 +133,31 @@ public class AuthService : IAuthService
         var userClaims = await _userManager.GetClaimsAsync(user);
         var roles = await _userManager.GetRolesAsync(user);
 
-        var roleClaims = new List<Claim>();
-
-        for (int i = 0; i < roles.Count; i++)
-        {
-            roleClaims.Add(new Claim(ClaimTypes.Role, roles[i]));
-        }
+        var roleClaims = roles.Select(role => new Claim(ClaimTypes.Role, role)).ToList();
 
         var claims = new[]
         {
-            new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(JwtRegisteredClaimNames.Email, user.Email),
-            new Claim("Uid", user.Id)
-        }
+        new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(JwtRegisteredClaimNames.Email, user.Email),
+        new Claim("Uid", user.Id)
+    }
         .Union(userClaims)
         .Union(roleClaims);
 
         var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
         var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
 
-        var jwtSecurityToken = new JwtSecurityToken(
+        return new JwtSecurityToken(
             issuer: _jwtSettings.Issuer,
             audience: _jwtSettings.Audience,
             claims: claims,
             expires: DateTime.UtcNow.AddMinutes(_jwtSettings.DurationInMinutes),
-            signingCredentials: signingCredentials);
-        return jwtSecurityToken;
+            signingCredentials: signingCredentials
+        );
     }
 }
-
+//AddMinutes(_jwtSettings.DurationInMinutes),
 
 
 

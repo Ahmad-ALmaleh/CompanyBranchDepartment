@@ -42,6 +42,7 @@ public static class InfrastructureServicesRegistration
 
         services.AddTransient<IAuthService, AuthService>();
         services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+        services.AddScoped<IEmployeeService, EmployeeService>();
         //services.AddTransient<IUserService, UserService>();
 
         services.AddAuthentication(options =>

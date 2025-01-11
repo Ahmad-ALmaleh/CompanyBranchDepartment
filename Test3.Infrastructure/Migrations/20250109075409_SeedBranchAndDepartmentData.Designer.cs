@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Test3.Infrastructure.Persistence;
 
@@ -11,9 +12,11 @@ using Test3.Infrastructure.Persistence;
 namespace Test3.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250109075409_SeedBranchAndDepartmentData")]
+    partial class SeedBranchAndDepartmentData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -159,11 +162,6 @@ namespace Test3.Infrastructure.Migrations
                         {
                             UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             RoleId = "cac43a6e-f7bb-4448-baaf-1add431ccbbf"
-                        },
-                        new
-                        {
-                            UserId = "63daeb90-38fb-4f56-ade4-0ad0865ce008",
-                            RoleId = "cbc43a8e-f7bb-4445-baaf-1add431ffbbf"
                         });
                 });
 
@@ -213,13 +211,13 @@ namespace Test3.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 1, 9, 9, 11, 1, 16, DateTimeKind.Utc).AddTicks(3498),
+                            CreatedAt = new DateTime(2025, 1, 9, 7, 54, 6, 602, DateTimeKind.Utc).AddTicks(8977),
                             Name = "Head Office"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 1, 9, 9, 11, 1, 16, DateTimeKind.Utc).AddTicks(3507),
+                            CreatedAt = new DateTime(2025, 1, 9, 7, 54, 6, 602, DateTimeKind.Utc).AddTicks(8988),
                             Name = "Branch 1"
                         });
                 });
@@ -294,13 +292,13 @@ namespace Test3.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 1, 9, 9, 11, 1, 16, DateTimeKind.Utc).AddTicks(4067),
+                            CreatedAt = new DateTime(2025, 1, 9, 7, 54, 6, 602, DateTimeKind.Utc).AddTicks(9271),
                             Name = "HR"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 1, 9, 9, 11, 1, 16, DateTimeKind.Utc).AddTicks(4072),
+                            CreatedAt = new DateTime(2025, 1, 9, 7, 54, 6, 602, DateTimeKind.Utc).AddTicks(9274),
                             Name = "IT"
                         });
                 });
@@ -423,16 +421,16 @@ namespace Test3.Infrastructure.Migrations
                         {
                             Id = "5e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1c460ade-9c45-4753-afc8-a13541414d00",
+                            ConcurrencyStamp = "e128eaf9-e48e-4a31-b7e5-686732a89c8a",
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
                             FullName = "Administartor",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAECV9ah9V2HQtJm9vuLL+u2/PWYr66Xh864Lo38gONvChLBRnB8mBbmg09sOGHPJiXg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENAR2xTDwG+0Ipw+PqFBV+zgU+tiyQEl5dzDb9iS1W4YGeM8Lg/KbAkhLEbCKQkhpg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2b260a72-0a2f-4ee1-8b2f-8ab799c6e54a",
+                            SecurityStamp = "31c0debe-5bc3-4491-85c4-2109a1b72c6b",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         },
@@ -440,16 +438,16 @@ namespace Test3.Infrastructure.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "369f6148-340a-4534-80cc-91c39deaacec",
+                            ConcurrencyStamp = "218b8978-06c9-4a49-a236-c2cf7d66658b",
                             Email = "user@localhost.com",
                             EmailConfirmed = true,
                             FullName = "RegularUser",
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFE5pnMWtwc1FWaZJJDisoawjkvivESfKf+QuRN4s+fTv0ViAEyulRCj9G8dzklKcw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMDJOaWqahKsp8drYkQiRD11XrvePRdNTo37xSa99KfBzGR5rQJle76lJK4xY9IaOg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1ee52169-083f-45a4-a821-1102ac19d864",
+                            SecurityStamp = "9190ae08-19d6-47be-b607-b076a270a1f3",
                             TwoFactorEnabled = false,
                             UserName = "user@localhost.com"
                         });

@@ -5,6 +5,7 @@ D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.GeneratedMSBuildE
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.AssemblyInfoInputs.cache
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.AssemblyInfo.cs
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.csproj.CoreCompileInputs.cache
+D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.sourcelink.json
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.dll
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\refint\Test3.Domin.dll
 D:\asp proj\Test3.Api\Test3.Domin\obj\Debug\net8.0\Test3.Domin.pdb

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Test3.Application.Contracts.Identity;
 using Test3.Application.DTOs.Identity;
+using Test3.Infrastructure.Identity.Services;
 namespace Test3.Api.Controllers
 {
     [Route("api/[controller]")]
@@ -18,9 +19,17 @@ namespace Test3.Api.Controllers
 
 
         [HttpPost("login")]
-        public async Task<ActionResult<AuthResponse>> Login(AuthRequest request)
+        public async Task<IActionResult> Login([FromBody] AuthRequest loginRequest)
         {
-            return Ok(await _iAuthService.Login(request));
+            try
+            {
+                var token = await _iAuthService.Login(loginRequest);
+                return Ok(new { Token = token });
+            }
+            catch (Exception ex)
+            {
+                return Unauthorized(new { Message = ex.Message });
+            }
         }
 
         [HttpPost("register")]

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Test3.Domin.Entities;
 using Test3.Domin.Entities.Common;
+using Test3.Infrastructure.Configurations;
 using Test3.Infrastructure.Identity.Configurations;
 using Test3.Infrastructure.Identity.Models;
 
@@ -37,6 +38,13 @@ public class AppDbContext : IdentityDbContext<AppUser>
         modelBuilder.ApplyConfiguration(new RoleConfiguration());
         modelBuilder.ApplyConfiguration(new UserConfiguration());
         modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
+
+
+        // Apply configurations
+        modelBuilder.ApplyConfiguration(new BranchConfiguration());
+        modelBuilder.ApplyConfiguration(new DepartmentConfiguration());
+        modelBuilder.ApplyConfiguration(new BranchDepartmentConfiguration());
+
 
         // Branch Configuration
         modelBuilder.Entity<Branch>()

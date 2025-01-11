@@ -9,7 +9,7 @@ namespace Test3.Application.Contracts.Identity;
 
 public interface IAuthService
 {
-    Task<AuthResponse> Login(AuthRequest request);
+    Task<string> Login(AuthRequest request);
     Task<RegistrationResponse> RegisterUser(RegisterRequest request);
 
 }

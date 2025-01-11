@@ -8,6 +8,7 @@ D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.Gener
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.AssemblyInfoInputs.cache
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.AssemblyInfo.cs
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.csproj.CoreCompileInputs.cache
+D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.sourcelink.json
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Ap.AF978ABE.Up2Date
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\Test3.Application.dll
 D:\asp proj\Test3.Api\Test3.Application\obj\Debug\net8.0\refint\Test3.Application.dll

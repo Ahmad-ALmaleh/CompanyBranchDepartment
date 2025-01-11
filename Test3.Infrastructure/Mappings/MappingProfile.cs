@@ -26,5 +26,12 @@ public class MappingProfile : Profile
         // تعيين AppUser إلى RegistrationResponse
         CreateMap<AppUser, RegistrationResponse>()
             .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.Id));
+
+        // Employee -> EmployeeDto
+        CreateMap<Employee, EmployeeDto>();
+
+        // UpdateEmployeeDto -> Employee
+        CreateMap<UpdateEmployeeDto, Employee>()
+            .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
     }
 }
